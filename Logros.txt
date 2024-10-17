@@ -1,0 +1,21 @@
+✅️ 1) Modulo 1 badge : Exploración de los conceptos de los datos principales 
+
+✅️ 2) Modulo 2 badge : Exploración de roles y servicios de datos 
+
+✅️ Modulo 1+2 trophy : Aspectos básicos de los datos en Microsoft Azure: recorrido por los principales conceptos de los datos  
+
+
+✅️ 3) Modulo 3 badge : Exploración de conceptos fundamentales de datos relacionales
+
+✅️ 4) Modulo 4 badge : Exploración de los servicios de bases de datos relacionales en Azure
+
+
+✅️ Modulo 3+4 trophy : Aspectos básicos de los datos en Azure: datos relacionales en Azure
+
+
+5) Modulo 5 badge : Exploración de Azure Storage para datos no relacionales.
+
+6) Modulo 6 badge : Exploración de los aspectos básicos de Azure Cosmos DB.
+
+
+Modulo 5+6 trophy : Aspectos básicos de los datos en Azure: datos no relacionales en Azure

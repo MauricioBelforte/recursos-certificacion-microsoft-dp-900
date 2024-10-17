@@ -1,0 +1,10 @@
+1) Exploración de los conceptos de los datos principales.
+2) Exploración de roles y servicios de datos.
+3) Exploración de conceptos fundamentales de datos relacionales.
+4) Exploración de los servicios de bases de datos relacionales en Azure.
+5) Exploración de Azure Storage para datos no relacionales.
+6) Exploración de los aspectos básicos de Azure Cosmos DB.
+7) Exploración de los aspectos básicos del análisis a gran escala.
+8) Exploración de los aspectos básicos del análisis en tiempo real.
+9) Exploración de los aspectos básicos de la visualización de datos.
+10) 
