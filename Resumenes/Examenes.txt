@@ -279,3 +279,101 @@ Shortcuts
      **Correcto.** El Real-Time hub en Microsoft Fabric proporciona un lugar central para gestionar los datos de streaming en toda tu organización.
 
     - Atajos
+
+
+9) Exploración de los aspectos básicos de la visualización de datos.
+
+Prueba de conocimientos
+Completado
+200 XP
+3 minutos
+Elija la mejor respuesta para cada una de las siguientes preguntas. Después, seleccione Comprobar las respuestas.
+
+Comprobación de conocimientos
+
+1. ¿Qué herramienta debe usar para importar datos de varios orígenes de datos y crear un informe? 
+
+Power BI Desktop
+Correcto. Use Power BI Desktop para crear informes a partir de una amplia gama de orígenes de datos.
+
+
+Aplicación móvil Power BI
+
+Azure Data Factory
+2. ¿Qué debe definir en el modelo de datos para habilitar el análisis de exploración y exploración en profundidad? 
+
+Una medida
+
+Una jerarquía
+Correcto. Una jerarquía define varios niveles de atributos.
+
+
+Una relación
+3. ¿Qué tipo de visualización debe usar para analizar las tasas de superación de varios exámenes a lo largo del tiempo? 
+
+Un gráfico circular
+
+Un gráfico de dispersión
+
+Un gráfico de líneas
+Correcto.
+
+
+
+10) Almacenamiento de datos de aplicaciones con Azure Blob Storage
+
+
+Comprobación de conocimientos
+
+1. Imagine que necesita almacenar información de perfil y pedidos sobre los clientes. Tendrá que consultar los datos para responder a preguntas como "¿Quiénes son mis 100 clientes principales?" y "¿Cuántos clientes viven en una región geográfica determinada?". Verdadero o falso: Blob Storage es una buena elección para estos datos. 
+
+True
+
+Falso
+Los blobs no son adecuados para datos estructurados que se deben consultar con frecuencia. Tienen una latencia mayor que la memoria y el disco local, y no tienen las características de indexación que hacen que las bases de datos sean eficaces para la ejecución de consultas.
+
+2. Los blobs proporcionan almacenamiento de datos no estructurados. ¿Qué se entiende por no estructurados? 
+
+Los blobs no se pueden organizar ni nombrar.
+
+No hay ninguna restricción sobre los tipos de datos que se pueden almacenar en los blobs.
+Los blobs no imponen ninguna estructura a los datos, lo que significa que las aplicaciones pueden almacenar cualquier tipo de datos en ellos.
+
+
+Los blobs no pueden contener datos estructurados, como JSON o XML.
+
+
+
+Comprobación de conocimientos
+
+1. ¿Cuál de las siguientes describe una buena estrategia para crear cuentas de almacenamiento y contenedores de blobs para la aplicación? 
+
+Crear cuentas de Azure Storage y contenedores antes de implementar la aplicación.
+
+Crear cuentas de Azure Storage en la aplicación según sea necesario. Crear los contenedores antes de implementar la aplicación.
+
+Crear cuentas de Azure Storage antes de implementar la aplicación. Crear contenedores en la aplicación según sea necesario.
+La creación de una cuenta de Azure Storage es una actividad administrativa y puede realizarse antes de implementar una aplicación. La creación de contenedores es una actividad ligera que se suele controlar mediante datos en tiempo de ejecución, por lo que resulta adecuada en la aplicación.
+
+2. ¿Cuál de los siguientes se puede usar para inicializar la biblioteca cliente de Blob Storage dentro de una aplicación? 
+
+Un nombre de usuario y una contraseña de Azure.
+
+La cadena de conexión de la cuenta de Azure Storage.
+Una cadena de conexión de cuenta de almacenamiento contiene toda la información necesaria para conectarse a Blob Storage, principalmente, el nombre de la cuenta y la clave de la cuenta.
+
+
+Un identificador único global (GUID) que represente a la aplicación.
+
+Los identificadores de ubicación y centro de datos de la cuenta de Azure Storage.
+3. ¿Qué ocurre cuando se obtiene una BlobClientreferencia deBlobContainerClient con el nombre de un blob? 
+
+Se crea un blob en bloques en el almacenamiento.
+
+Se crea un objeto BlobClient de forma local. No se realiza ninguna llamada de red.
+El hecho de obtener una referencia de blob no hace que se efectúen llamadas a Azure Storage, sino que se crea un objeto de forma local que puede funcionar con un blob almacenado.
+
+
+Se produce una excepción si el blob no existe en el almacenamiento.
+
+Se descarga el contenido del blob con nombre.

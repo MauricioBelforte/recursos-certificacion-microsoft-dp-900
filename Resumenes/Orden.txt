@@ -7,4 +7,5 @@
 7) Exploración de los aspectos básicos del análisis a gran escala.
 8) Exploración de los aspectos básicos del análisis en tiempo real.
 9) Exploración de los aspectos básicos de la visualización de datos.
-10) 
+
+10) Almacenamiento de datos de aplicaciones con Azure Blob Storage
