@@ -377,3 +377,80 @@ El hecho de obtener una referencia de blob no hace que se efectúen llamadas a A
 Se produce una excepción si el blob no existe en el almacenamiento.
 
 Se descarga el contenido del blob con nombre.
+
+
+
+
+
+11) **Selección de un enfoque de almacenamiento de datos en Azure**
+
+
+1. ¿Qué tipo de datos es un archivo JSON? 
+
+Estructurados
+
+Semiestructurados
+Correcto. Un archivo JSON contiene datos semiestructurados. Los datos contienen etiquetas que hacen evidentes la organización y la jerarquía de los datos.
+
+
+Datos no estructurados
+2. ¿Qué tipo de datos es un vídeo? 
+
+Estructurados
+
+Semiestructurados
+
+Datos no estructurados
+Correcto. Un vídeo podría tener una estructura general, pero los datos que forman el vídeo en sí mismo son no estructurados. Los datos no estructurados a menudo se entregan en formato de archivo.
+
+
+
+Comprobación de conocimientos
+
+1. ¿Qué tipo de sistema de base de datos transaccional funcionaría mejor para los datos de productos? 
+
+OLAP
+
+OLTP
+Correcto. Los sistemas OLTP admiten un conjunto grande de usuarios, tienen tiempos de respuesta rápidos, administran grandes volúmenes de datos, tienen una alta disponibilidad y son excelentes para transacciones pequeñas o relativamente simples. Un sistema OLTP funcionaría mejor para datos transaccionales, como los de productos, que están estrechamente vinculados al inventario.
+
+2. Imagine que las operaciones de actualización de inventario y procesamiento de pagos de una tienda están en la misma transacción. Un usuario intenta aplicar un vale de compra de 30 USD a un pedido desde un portátil y realiza el mismo pedido exacto con el vale de compra (para la cantidad completa) desde el teléfono. Se reciben dos pedidos idénticos. La base de datos en segundo plano es compatible con ACID. ¿Qué sucederá? 
+
+Los pedidos se procesarían y usarían el vale de compra.
+
+Un pedido se procesará y usará el vale de compra. El otro pedido actualizará el inventario restante de los artículos de la cesta, pero no completará el pedido.
+
+Un pedido se procesará y se usará el vale de compra, y el otro pedido no se procesará.
+Correcto. Cuando el segundo pedido determine que el vale de compra ya se ha usado, revertirá la transacción.
+
+
+12) **Planeamiento de los recursos necesarios**
+
+Comprobación de conocimiento
+Completado
+200 XP
+5 minutos
+
+1. ¿Qué acrónimo de moneda basada en tasas se usa como simplificación de CPU, memoria e IOPS? 
+
+RU/s
+Correcto. "RU/s" es el acrónimo de "unidades de solicitud por segundo".
+
+
+TTL
+
+vCPU
+2. ¿Qué propiedad de un contenedor debe especificarse para purgar automáticamente los elementos después de un número especificado de segundos? 
+
+Expiration
+
+DefaultTimeToLive
+Correcto. Especifique el valor DefaultTimeToLive de un contenedor para habilitar la característica de período de vida para los elementos del contenedor.
+
+
+_ttl
+
+
+
+
+13) **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL**

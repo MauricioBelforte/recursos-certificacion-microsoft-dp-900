@@ -136,3 +136,4 @@ Objeto binario grande (BLOB)
 17. LRS, GRS, ZRS – Locally Redundant Storage, Geo-Redundant Storage, Zone-Redundant Storage (tipos de redundancia de almacenamiento en Azure)
 18. 
 
+Período de vida (TTL)
