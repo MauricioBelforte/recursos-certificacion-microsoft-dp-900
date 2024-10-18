@@ -13,7 +13,7 @@
 ✅️ Modulo 3+4 trophy : Aspectos básicos de los datos en Azure: datos relacionales en Azure
 
 
-5) Modulo 5 badge : Exploración de Azure Storage para datos no relacionales.
+✅️ 5) Modulo 5 badge : Exploración de Azure Storage para datos no relacionales.
 
 6) Modulo 6 badge : Exploración de los aspectos básicos de Azure Cosmos DB.
 
