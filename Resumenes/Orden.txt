@@ -14,6 +14,10 @@
 12) **Planeamiento de los recursos necesarios**
 13) **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL**
 
+14) **Traslado de datos a Azure Cosmos DB for NoSQL y desde este**
+
+
+
 
 
 

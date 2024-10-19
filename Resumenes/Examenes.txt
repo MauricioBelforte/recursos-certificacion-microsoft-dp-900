@@ -454,3 +454,28 @@ _ttl
 
 
 13) **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL**
+
+
+
+
+1. El contenedor de Azure Cosmos DB ha aprovisionado el rendimiento manualmente. Las solicitudes entrantes han superado las unidades de solicitud aprovisionadas por segundo (RU/s). ¿Y después qué? 
+
+Azure Cosmos DB limitará la velocidad de las solicitudes posteriores.
+Correcto. El rendimiento aprovisionado manualmente limitará la velocidad de las solicitudes, con una respuesta que indica que se debe esperar antes de volver a intentarlo.
+
+
+Azure Cosmos DB escalará las RU/s hasta un máximo de servicio de 50 000 RU/s.
+
+Azure Cosmos DB escalará las RU/s hasta un máximo de RU/s que ha configurado previamente.
+2. Al crear una prueba de concepto, el equipo de desarrollo web pudo calcular correctamente las necesidades de rendimiento de la aplicación dentro de un margen de error del 5 % y no espera ninguna varianza significativa con el tiempo. Cuando se ejecute en producción, el equipo espera que la carga de trabajo sea extremadamente estable. ¿Qué tipo de opción de rendimiento debe tener en cuenta? 
+
+Escalado automático
+
+Sin servidor
+
+Estándar
+Correcto. El rendimiento estándar es adecuado para las cargas de trabajo con tráfico estable.
+
+
+
+14) **Traslado de datos a Azure Cosmos DB for NoSQL y desde este**
