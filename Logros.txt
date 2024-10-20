@@ -18,17 +18,28 @@
 ✅️ 6) Modulo 6 badge : Exploración de los aspectos básicos de Azure Cosmos DB.
 
 
-Modulo 5+6 trophy : Aspectos básicos de los datos en Azure: datos no relacionales en Azure
+✅️ Modulo 5+6 trophy : Aspectos básicos de los datos en Azure: datos no relacionales en Azure
 
 
 7) Modulo 7 badge : Exploración de los aspectos básicos del análisis a gran escala
 
-8) Exploración de los aspectos básicos del análisis en tiempo real
+8) Modulo 8 badge :Exploración de los aspectos básicos del análisis en tiempo real
 
-Microsoft Azure Data Fundamentals: Explore data analytics in Azure
+Modulo 7+8 trophy : Microsoft Azure Data Fundamentals: Explore data analytics in Azure
 
-9) Exploración de los aspectos básicos de la visualización de datos
+9) Modulo 9 badge : Exploración de los aspectos básicos de la visualización de datos
 
-10) Almacenamiento de datos de aplicaciones con Azure Blob Storage
+10) Modulo 10 badge : Almacenamiento de datos de aplicaciones con Azure Blob Storage
 
-11) Selección de un enfoque de almacenamiento de datos en Azure
+11) Modulo 11 badge : Selección de un enfoque de almacenamiento de datos en Azure
+
+
+
+12) Modulo 12 badge : Planeamiento de los recursos necesarios
+
+13) Modulo 13 badge : Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL
+
+14) Modulo 14 badge : Traslado de datos a Azure Cosmos DB for NoSQL y desde este
+
+
+Modulo 12+13+14 trophy : Planeamiento e implementación de Azure Cosmos DB for NoSQL

@@ -479,3 +479,70 @@ Correcto. El rendimiento estándar es adecuado para las cargas de trabajo con tr
 
 
 14) **Traslado de datos a Azure Cosmos DB for NoSQL y desde este**
+
+
+Prueba de conocimientos
+Completado
+200 XP
+5 minutos
+
+1. ¿Qué tipo de componente de Azure Data Factory cargará los datos en Azure Cosmos DB for NoSQL después de que se haya transformado? 
+
+Receptor
+Correcto. Un receptor es el destino de los datos una vez transformados.
+
+
+Source
+
+Entrada
+2. Después de habilitar Synapse Link en el nivel de cuenta de Azure Cosmos DB for NoSQL, ¿qué debe hacer antes de poder usar el conector de Spark con un contenedor específico? 
+
+Instalación de Apache Spark en Azure Cosmos DB for NoSQL
+
+No es necesario realizar ninguna otra acción después de habilitar Synapse Link
+
+Habilitación del almacenamiento analítico a el nivel de contenedor
+Correcto. Cada contenedor debe tener habilitado el almacenamiento analítico.
+
+
+
+15) **Implementación de soluciones PaaS con Azure SQL**
+
+1. Debe migrar un conjunto de bases de datos que usan transacciones distribuidas desde SQL Server local. ¿Cuál de las siguientes opciones debería elegir? 
+
+Azure SQL Database
+
+Hiperescala de Azure SQL Database
+
+Instancia administrada de Azure SQL
+Correcto. Azure SQL Managed Instance es la única oferta que admite transacciones entre bases de datos.
+
+2. Está compilando una nueva base de datos en la nube que espera que crezca hasta 50 TB. ¿Cuál es la mejor opción para la base de datos? 
+
+Instancia administrada de Azure SQL
+
+Azure SQL Database sin servidor
+
+Hiperescala de Azure SQL Database
+Correcto. La Hiperescala de Azure SQL Database es la única opción que admite 50 TB de datos.
+
+3. Va a compilar una base de datos con fines de prueba que se utilizará menos de 8 horas al día. Se espera que tenga un tamaño de 20 GB. ¿Cuál es su opción más rentable? 
+
+Azure SQL Database sin servidor
+Correcto. Sin servidor reducirá considerablemente el costo de una base de datos que solo se utiliza durante el horario comercial.
+
+
+Grupos elásticos de Azure SQL Database
+
+Instancia administrada de Azure SQL
+4. ¿Con qué frecuencia se producen copias de seguridad diferenciales con Azure SQL Managed Instance? 
+
+Cada 1 hora
+
+Cada 12 horas
+Correcto. Con Azure SQL Managed Instance, las copias de seguridad diferenciales se producen cada 12 horas.
+
+
+Cada 24 horas
+
+

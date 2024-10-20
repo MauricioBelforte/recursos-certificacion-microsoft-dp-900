@@ -30,12 +30,18 @@ Los sistemas OLTP suelen usarse para admitir aplicaciones activas que procesan d
 LOB - Line Of Business 
 Aplicaciones de linea de negocio.
 
+7. OLAP – Online Analytical Processing
+Un modelo OLAP es un tipo agregado de almacenamiento de datos optimizado para cargas de trabajo analíticas
+
+
+Unidad de transacción de base de datos (DTU)
+
+Cifrado de datos transparente (TDE) 
+
 CRM (Customer Relationship Management)
 
 ERP (Enterprise Resource Planning)
 
-7. OLAP – Online Analytical Processing
-Un modelo OLAP es un tipo agregado de almacenamiento de datos optimizado para cargas de trabajo analíticas
 
 
  LAMP significa Linux, Apache, MySQL y PHP.

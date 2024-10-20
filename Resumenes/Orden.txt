@@ -17,6 +17,8 @@
 14) **Traslado de datos a Azure Cosmos DB for NoSQL y desde este**
 
 
+15) **Implementación de soluciones PaaS con Azure SQL**
+
 
 
 
