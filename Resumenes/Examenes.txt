@@ -546,3 +546,75 @@ Correcto. Con Azure SQL Managed Instance, las copias de seguridad diferenciales 
 Cada 24 horas
 
 
+16) **Migración de las cargas de trabajo de SQL Server a Azure SQL Database**
+
+Prueba de conocimientos
+Completado
+200 XP
+8 minutos
+Comprobación de conocimientos
+
+1. ¿Cuál es el propósito de escribir credenciales en el entorno de ejecución de integración autohospedado? 
+
+Para conectarse al origen y migrar datos al destino
+Correcto. Las credenciales se usan para establecer una conexión con el origen y migrar datos al destino.
+
+
+Para eliminar los datos de origen
+
+Para crear una copia de seguridad de los datos de origen
+2. ¿Cuál es el rol del entorno de ejecución de integración autohospedado en la migración de datos? 
+
+Para conectarse al origen y el destino, y facilitar la migración de datos
+Correcto. El entorno de ejecución de integración autohospedado se usa para conectarse al origen y el destino y facilitar la migración de datos.
+
+
+Para almacenar los datos migrados
+
+Para analizar los datos migrados
+3. ¿Cuál es la importancia de seleccionar tablas durante la migración de datos? 
+
+Ayuda a migrar solo los datos necesarios del origen al destino
+Correcto. La selección de tablas ayuda a migrar solo los datos necesarios del origen al destino.
+
+
+Ayuda a crear una copia de seguridad de los datos de origen
+
+Ayuda a analizar los datos migrados
+4. ¿Se puede configurar la replicación transaccional desde Azure Portal? 
+
+No, la replicación transaccional solo se puede configurar a través de SQL Server Management Studio.
+
+Sí, la replicación transaccional se puede configurar desde Azure Portal.
+Incorrecto. La replicación transaccional no se puede configurar desde Azure Portal.
+
+
+No, la replicación transaccional no se puede configurar desde Azure Portal.
+Correcto. La replicación transaccional no se puede configurar desde Azure Portal.
+
+
+
+
+
+17) **Copia de seguridad y restauración de la base de datos de Azure SQL**
+
+
+Comprobación de conocimientos
+
+1. Ha creado una base de datos en Azure SQL Database. ¿Cuándo se ejecutará la primera copia de seguridad completa? 
+
+Cuando sea medianoche en la región local.
+
+Inmediatamente.
+Azure programa una copia de seguridad completa para que se ejecute en cuanto se cree la base de datos.
+
+
+Cuando ejecute manualmente la copia de seguridad
+2. ¿Dónde se almacenan las copias de seguridad de SQL Server de forma predeterminada? 
+
+En la ubicación local que especifique
+
+En una cuenta de almacenamiento con redundancia local
+
+En una cuenta de almacenamiento con redundancia geográfica con acceso de lectura
+La ubicación predeterminada para las copias de seguridad es una cuenta de almacenamiento con redundancia geográfica y acceso de lectura que se replica en un centro de datos emparejado.

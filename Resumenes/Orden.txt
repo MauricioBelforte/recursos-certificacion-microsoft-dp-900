@@ -19,8 +19,10 @@
 
 15) **Implementación de soluciones PaaS con Azure SQL**
 
+16) **Migración de las cargas de trabajo de SQL Server a Azure SQL Database**
 
 
+17) **Copia de seguridad y restauración de la base de datos de Azure SQL**
 
 
 # Plan de Estudios para DP-900

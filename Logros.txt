@@ -21,9 +21,9 @@
 ✅️ Modulo 5+6 trophy : Aspectos básicos de los datos en Azure: datos no relacionales en Azure
 
 
-7) Modulo 7 badge : Exploración de los aspectos básicos del análisis a gran escala
+✅️ 7) Modulo 7 badge : Exploración de los aspectos básicos del análisis a gran escala
 
-8) Modulo 8 badge :Exploración de los aspectos básicos del análisis en tiempo real
+✅️ 8) Modulo 8 badge :Exploración de los aspectos básicos del análisis en tiempo real
 
 Modulo 7+8 trophy : Microsoft Azure Data Fundamentals: Explore data analytics in Azure
 

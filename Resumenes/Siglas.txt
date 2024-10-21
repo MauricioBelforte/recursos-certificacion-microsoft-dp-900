@@ -40,9 +40,7 @@ Cifrado de datos transparente (TDE)
 
 CRM (Customer Relationship Management)
 
-ERP (Enterprise Resource Planning)
-
-
+ERP (Enterprise Resource Planning) planeamiento de recursos empresariales 
 
  LAMP significa Linux, Apache, MySQL y PHP.
 
