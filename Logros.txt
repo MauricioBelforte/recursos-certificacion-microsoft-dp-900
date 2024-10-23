@@ -25,7 +25,7 @@
 
 ✅️ 8) Modulo 8 badge :Exploración de los aspectos básicos del análisis en tiempo real
 
-Modulo 7+8 trophy : Microsoft Azure Data Fundamentals: Explore data analytics in Azure
+✅️ Modulo 7+8 trophy : Microsoft Azure Data Fundamentals: Explore data analytics in Azure
 
 9) Modulo 9 badge : Exploración de los aspectos básicos de la visualización de datos
 
