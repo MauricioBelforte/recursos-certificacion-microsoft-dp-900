@@ -1,4 +1,4 @@
-# 2) Exploración de Conceptos Fundamentales de Datos Relacionales
+# 3) Exploración de Conceptos Fundamentales de Datos Relacionales
 
 ## Normalización
 

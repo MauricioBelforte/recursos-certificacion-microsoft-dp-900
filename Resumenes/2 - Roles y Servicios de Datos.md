@@ -1,4 +1,4 @@
-# 1) Exploración de Roles y Servicios de Datos
+# 2) Exploración de Roles y Servicios de Datos
 
 ## 1. Roles en la Gestión de Datos
 
