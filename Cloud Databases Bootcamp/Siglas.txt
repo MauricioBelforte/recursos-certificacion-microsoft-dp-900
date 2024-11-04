@@ -22,17 +22,24 @@ IaaS: Control
 
 
 6. OLTP – Online Transaction Processing
+Procesamiento de transacciones en línea (OLTP), manejan grandes volúmenes de transacciones diarias y requieren acceso rápido a los datos.
 El trabajo que realizan los sistemas transaccionales a menudo se conoce como procesamiento de transacciones en línea (OLTP).
-
 Los sistemas OLTP suelen usarse para admitir aplicaciones activas que procesan datos empresariales, a menudo denominadas aplicaciones de línea de negocio (LOB).
+
+ACID
+- **Semántica ACID**: 
+  - **Atomicidad**: Cada transacción se completa totalmente o no se realiza.
+  - **Coherencia**: Las transacciones llevan los datos de un estado válido a otro.
+  - **Aislamiento**: Las transacciones simultáneas no interfieren entre sí.
+  - **Durabilidad**: Una vez confirmada, una transacción permanece confirmada.
 
 
 LOB - Line Of Business 
 Aplicaciones de linea de negocio.
+Los sistemas OLTP suelen usarse para admitir aplicaciones activas que procesan datos empresariales, a menudo denominadas aplicaciones de línea de negocio (LOB).
 
 7. OLAP – Online Analytical Processing
-Un modelo OLAP es un tipo agregado de almacenamiento de datos optimizado para cargas de trabajo analíticas
-
+Un modelo OLAP es un tipo agregado de almacenamiento de datos optimizado para cargas de trabajo analíticas con agregaciones de datos en diferentes dimensiones y niveles.
 
 Unidad de transacción de base de datos (DTU)
 
@@ -62,6 +69,7 @@ Sistema de Gestión de Bases de Datos Relacionales
 
 11. DWH – Data Warehouse
 Un almacenamiento de datos (o data warehouse) es una base de datos relacional optimizada para la lectura y el análisis de datos, en lugar de para operaciones de escritura rápida, y está diseñada para la toma de decisiones empresariales.
+Un Data Warehouse, o almacén de datos, es un sistema utilizado para el almacenamiento y análisis de grandes volúmenes de datos provenientes de diversas fuentes.
 
 
 12. NoSQL – Not Only SQL
