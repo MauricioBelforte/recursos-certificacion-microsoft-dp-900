@@ -1,0 +1,99 @@
+1) Exploración de los conceptos de los datos principales.
+2) Exploración de roles y servicios de datos.
+3) Exploración de conceptos fundamentales de datos relacionales.
+4) Exploración de los servicios de bases de datos relacionales en Azure.
+5) Exploración de Azure Storage para datos no relacionales.
+6) Exploración de los aspectos básicos de Azure Cosmos DB.
+7) Exploración de los aspectos básicos del análisis a gran escala.
+8) Exploración de los aspectos básicos del análisis en tiempo real.
+9) Exploración de los aspectos básicos de la visualización de datos.
+
+10) Almacenamiento de datos de aplicaciones con Azure Blob Storage
+11) **Selección de un enfoque de almacenamiento de datos en Azure**
+
+12) **Planeamiento de los recursos necesarios**
+13) **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL**
+
+14) **Traslado de datos a Azure Cosmos DB for NoSQL y desde este**
+
+
+15) **Implementación de soluciones PaaS con Azure SQL**
+
+16) **Migración de las cargas de trabajo de SQL Server a Azure SQL Database**
+
+
+17) **Copia de seguridad y restauración de la base de datos de Azure SQL**
+
+
+# Plan de Estudios para DP-900
+
+## Completado:
+1. **Exploración de los conceptos de los datos principales**
+2. **Exploración de roles y servicios de datos**
+3. **Exploración de conceptos fundamentales de datos relacionales**
+4. **Exploración de los servicios de bases de datos relacionales en Azure**
+5. **Exploración de Azure Storage para datos no relacionales**
+6. **Exploración de los aspectos básicos de Azure Cosmos DB**
+7. **Exploración de los aspectos básicos del análisis a gran escala**
+8. **Exploración de los aspectos básicos del análisis en tiempo real**
+9. **Exploración de los aspectos básicos de la visualización de datos**
+10. **Almacenamiento de datos de aplicaciones con Azure Blob Storage**
+
+## Por Completar:
+11. **Selección de un enfoque de almacenamiento de datos en Azure** (30 min)
+12. **Planeamiento de los recursos necesarios** (23 min)
+13. **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL** (36 min)
+14. **Traslado de datos a Azure Cosmos DB for NoSQL y desde este** (52 min)
+15. **Implementación de soluciones PaaS con Azure SQL** (1 h 18 min)
+16. **Migración de las cargas de trabajo de SQL Server a Azure SQL Database** (1 h 27 min)
+17. **Copia de seguridad y restauración de la base de datos de Azure SQL** (41 min)
+
+## Siguientes Pasos:
+1. Completar los módulos pendientes en el orden recomendado.
+2. Revisar y practicar con ejemplos y ejercicios adicionales si es necesario.
+3. ¡Prepararse para rendir el examen DP-900 con confianza!
+
+¡Adelante! 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Plan de Estudios para DP-900
+
+## Completado:
+1. **Exploración de los conceptos de los datos principales** (completado)
+2. **Exploración de roles y servicios de datos** (completado)
+3. **Exploración de conceptos fundamentales de datos relacionales** (completado)
+4. **Exploración de los servicios de bases de datos relacionales en Azure** (completado)
+5. **Exploración de Azure Storage para datos no relacionales** (completado)
+6. **Exploración de los aspectos básicos de Azure Cosmos DB** (completado)
+7. **Almacenamiento de datos de aplicaciones con Azure Blob Storage** (completado)
+8. **Exploración de los aspectos básicos del análisis a gran escala** (completado)
+9. **Exploración de los aspectos básicos de la visualización de datos** (completado)
+
+## Por Completar:
+10. **Configuración de una base de datos y contenedores de Azure Cosmos DB for NoSQL** (36 min)
+11. **Traslado de datos a Azure Cosmos DB for NoSQL y desde este** (52 min)
+12. **Planeamiento de los recursos necesarios** (23 min)
+13. **Selección de un enfoque de almacenamiento de datos en Azure** (30 min)
+14. **Migración de las cargas de trabajo de SQL Server a Azure SQL Database** (1 h 27 min)
+15. **Implementación de soluciones PaaS con Azure SQL** (1 h 18 min)
+16. **Copia de seguridad y restauración de la base de datos de Azure SQL** (41 min)
+17. **Exploración de los aspectos básicos del análisis en tiempo real** (1 h 21 min, continuar y completar)
+
+## Siguientes Pasos:
+18. Completar los módulos pendientes en el orden recomendado.
+19. Revisar y practicar con ejemplos y ejercicios adicionales si es necesario.
+20. ¡Prepararse para rendir el examen DP-900 con confianza!
+
