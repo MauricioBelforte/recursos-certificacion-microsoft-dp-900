@@ -44,7 +44,7 @@ Cloud Databases Bootcamp
 ✅️ 14) Modulo 14 badge : Traslado de datos a Azure Cosmos DB for NoSQL y desde este
 
 
-Modulo 12+13+14 trophy : Planeamiento e implementación de Azure Cosmos DB for NoSQL
+✅️ Modulo 12+13+14 trophy : Planeamiento e implementación de Azure Cosmos DB for NoSQL
 
 
 
