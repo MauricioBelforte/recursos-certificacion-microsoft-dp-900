@@ -5,9 +5,9 @@ Este repositorio contiene materiales útiles para prepararse para el examen de c
 ## Estructura del Proyecto
 
 - ### Material de Código Facilito
-  - [Temario y Grabaciones](./Codigo%20facilito/Temario%20y%20grabaciones.md) 
-  - [PDF de la semana](./Codigo%20facilito/PDF%20de%20la%20semana)
-  - [Recursos](./Codigo%20facilito/Recursos)
+  - [Temario y Grabaciones](./Codigo%20Facilito/Temario%20y%20grabaciones.md) 
+  - [PDF de la semana](./Codigo%20Facilito/PDF%20de%20la%20semana)
+  - [Recursos](./Codigo%20Facilito/Recursos)
 
 
 
