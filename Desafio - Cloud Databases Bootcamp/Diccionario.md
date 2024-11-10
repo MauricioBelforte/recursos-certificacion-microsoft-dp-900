@@ -4,7 +4,7 @@
 ## A
 
 ### Aprovisionamiento
-Reservar recursos específicos (como rendimiento y almacenamiento) para asegurarte de que siempre estén disponibles para tu aplicación.
+Reservar recursos específicos (como rendimiento y almacenamiento) para asegurarte de que siempre estén disponibles para tu aplicación. Tambien se podria decir recursos dedicados.
 
 ### AI – Artificial Intelligence
 Inteligencia Artificial.
@@ -67,6 +67,11 @@ Proceso de extracción, carga y transformación de datos.
 
 ### GPU – Graphics Processing Unit
 Unidad de procesamiento gráfico para cargas de trabajo intensivas.
+
+## H
+
+### Hyper-scale (Hiperescala)
+**Hiperescala**: La hiperescala se refiere a la capacidad de una arquitectura informática para escalar de manera eficiente a medida que aumenta la demanda. Es un enfoque de infraestructura que permite el crecimiento masivo y rápido de recursos informáticos para gestionar grandes volúmenes de datos y una alta demanda de procesamiento. Los entornos de hiperescala suelen estar diseñados para proporcionar alto rendimiento, flexibilidad y disponibilidad, y son comunes en grandes empresas tecnológicas y proveedores de servicios en la nube.
 
 ## I
 
@@ -134,6 +139,10 @@ Funcionalidad que permite conservar copias de seguridad de bases de datos durant
 
 ### SaaS – Software as a Service
 Software como servicio. Provisión de aplicaciones a través de la nube.
+
+
+### Serverless (Sin Servidor)
+**Serverless**: El término "serverless" (sin servidor) describe un modelo de ejecución en la nube donde el proveedor de servicios en la nube gestiona automáticamente la infraestructura subyacente. En un entorno sin servidor, los desarrolladores pueden escribir y desplegar código sin preocuparse por la administración de servidores, la escalabilidad o el aprovisionamiento de recursos. Los servicios serverless permiten a los desarrolladores concentrarse en escribir la lógica de la aplicación, mientras el proveedor de la nube se encarga de escalar automáticamente los recursos según la demanda.
 
 ### SLA – Service Level Agreement
 Acuerdo de nivel de servicio.
