@@ -60,6 +60,8 @@ Es utilizado por Azure Data Factory y Azure Database Migration Service. Este ent
 ### Escalabilidad
 La capacidad de tu aplicación o proyecto de crecer y manejar un aumento en la carga de trabajo. Puede ser manual (fijo) o automática (ajusta según la demanda).
 
+### escalabilidad horizontal
+
 ### ELT – Extract, Load, Transform
 Proceso de extracción, carga y transformación de datos.
 
@@ -126,6 +128,9 @@ El tiempo que un documento vive en la base de datos antes de expirar automática
 
 ## R
 
+### Redundancia
+Evitar tener información repetida.
+
 ### RDBMS – Relational Database Management System
 Sistema de gestión de bases de datos relacionales.
 
@@ -149,6 +154,10 @@ Acuerdo de nivel de servicio.
 
 ### SMB – Server Message Block
 Bloque de mensajes del servidor.
+
+### SQL (Structured Query Language):
+- Lenguaje estándar para gestionar y manipular bases de datos relacionales.
+
 
 ## T
 
