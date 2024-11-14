@@ -25,14 +25,16 @@
 
 ### Tenemos diferentes bases de datos
 
-![alt text](basesdedatos.png)
-
 - Bases de datos SQL (Structured Query Language):
   - **Relacional** (SQL Server, MySQL, Posgrest, Oracle)
 - Bases de datos NoSQL (Not Only SQL)
   - Clave-Valor
   - Documental
   - Grafos
+
+
+![alt text](basesdedatos.png)
+
 
 
 ## 2. Fundamentos de bases de datos relacionales
@@ -98,6 +100,46 @@ Para utilizar SQL Server Management Studio (SSMS) necesitas tener instalado Micr
 
 
 ## 5. Introducción a la normalización
+
+
+- La normalización de bases de datos es un proceso que consiste en organizar los datos de una base de datos para reducir la redundancia y eliminar problemas en el almacenamiento y recuperación de información.
+- La normalización de bases de datos implica:
+  - Crear tablas
+  - Establecer relaciones entre las tablas
+  - Eliminar grupos repetitivos de las tablas
+  - Crear una tabla separada por cada grupo de datos relacionados
+  - Identificar cada grupo de datos relacionados con una clave primaria
+
+
+- La normalización de bases de datos es un paso crucial en el diseño de sistemas de gestión de bases de datos. Mejora la eficiencia de la base de datos, facilita la gestión y la toma de decisiones.
+
+
+### Formas de normalización
+
+- Hay algunas reglas en la normalización de una base de datos. Cada regla se llama "forma normal".
+- Si se cumple la primera regla, se dice que la base de datos está en "primera forma normal".
+- Si se observan las tres primeras reglas, se considera que la base de datos está en "tercera forma normal".
+- Aunque son posibles otros niveles de normalización, la tercera forma normal se considera el nivel más alto necesario para la mayoría de las aplicaciones.
+
+
+### Primera forma normal
+
+- Elimine los grupos repetidos de las tablas individuales.
+- Cree una tabla independiente para cada conjunto de datos relacionados.
+- Identifique cada conjunto de datos relacionados con una clave principal.
+
+### Segunda forma normal
+
+- Cree tablas independientes para conjuntos de valores que se apliquen a varios registros.
+- Relacione estas tablas con una clave externa.
+
+### Tercera forma normal
+
+- Eliminar los campos que no dependen de la clave.
+
+*Al igual que con otras muchas reglas y especificaciones formales, los escenarios del mundo real no siempre permiten un cumplimiento perfecto. En general, la normalización requiere tablas adicionales y algunos clientes consideran esto un trabajo considerable. Si decide infringir una de las tres primeras reglas de la normalización, asegúrese de que su aplicación se anticipe a los problemas que puedan aparecer, como la existencia de datos redundantes y de dependencias incoherentes.*
+
+
 ## 6. Formas de normalización
 ### De la primera a la tercera forma normal
 ## 7. Demostración: Normalización de una tabla de ejemplo
