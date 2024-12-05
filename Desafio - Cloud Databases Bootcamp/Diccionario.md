@@ -182,3 +182,10 @@ Máquina virtual. Entorno virtualizado que actúa como una computadora independi
 ### DWH – Data Warehouse
 Un almacenamiento de datos (o data warehouse) es una base de datos relacional optimizada para la lectura y el análisis de datos, en lugar de para operaciones de escritura rápida, y está diseñada para la toma de decisiones empresariales.
 Un Data Warehouse, o almacén de datos, es un sistema utilizado para el almacenamiento y análisis de grandes volúmenes de datos provenientes de diversas fuentes.
+
+
+OLTP
+OLAP
+pipeline: canalizacion, flujo o secuencia de tareas
+
+append

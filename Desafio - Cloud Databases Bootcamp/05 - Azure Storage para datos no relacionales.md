@@ -52,7 +52,7 @@ Azure Blob Storage es un servicio que permite almacenar grandes cantidades de da
 ## Tipos de Blobs
 - **Blobs en Bloques**: Tratados como un conjunto de bloques, cada uno de hasta 4000 MiB. Ideales para objetos binarios grandes que cambian con poca frecuencia.
 - **Blobs en Páginas**: Organizados como una colección de páginas de tamaño fijo de 512 bytes. Optimizados para operaciones de lectura y escritura aleatorias.
-- **Blobs en Anexos**: Blobs en bloques optimizados para anexar bloques al final. Ideales para escenarios donde se agregan datos continuamente.
+- **Blobs en Anexos**:  Solo puede agregar bloques al final de un blob en anexos; no se admite la actualización o eliminación de bloques existentes.  Ideales para escenarios donde se agregan datos continuamente.
 
 ## Niveles de Acceso
 - **Acceso Frecuente**: El nivel predeterminado. Usado para blobs a los que se accede con frecuencia. Almacenamiento en medios de alto rendimiento.
