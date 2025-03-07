@@ -40,7 +40,7 @@ En estos la estructura está predefinida pero son más flexibles. Permite difere
 
 
 - ###  **Datos no estructurados:**
-En estos elementos no hay un esquema. (Ej: archivos binarios, pdf, imagenes, videos, archivos de word, etc)
+En estos elementos no hay un esquema. (Ej: archivos binarios, pdf, imagenes, videos, audio, archivos de word, el pdf de un correo electrónico, etc)
 
 ![Imagen Datos No Estructurados](datosnoestructurados.png)
 
@@ -85,7 +85,7 @@ Samir,Nadoy,samir@northwind.com
 
 - #### Formatos optimizados:  
     - #### Avro   
-      Organiza los datos en filas. Similar a JSON. Perro tiene un encabezado con metadatos. Creado por Apache.  
+      Organiza los datos en filas. Similar a JSON. Pero tiene un encabezado con metadatos. Creado por Apache.  
 
       - ![Imagen Formato optimizado Avro](avro.png) 
   
@@ -95,7 +95,7 @@ Samir,Nadoy,samir@northwind.com
       - ![Imagen Formato optimizado ORC](orc.png)  
     
     - #### Parquet  
-      Similar a ORC, basado en columnas. Los datos de cada columna se almacenan juntos en un grupo de filas. Se utiliza en analítica , con Data lakes.
+      Similar a ORC, basado en columnas. Los datos de cada columna se almacenan juntos en un grupo de filas. Se utiliza en analítica , con Data lakes, con Spark. Esta pensado para encontrar datos rapidamente.
 
       - ![Imagen Formato optimizado Parquet](parquet.png)  
 
@@ -146,7 +146,7 @@ Es decir **Cargas de trabajo de datos transaccionales** y **Cargas de trabajo de
 Los datos se almacenan en una base de datos optimizada para **operaciones de procesamiento de transacciones en línea (OLTP)** que admite operaciones de lectura o escritura.
 
 **Por ejemplo:**
-- Leer la tabla Product para mostrar un catálogo
+- Leer la tabla Product (tabla Producto) para mostrar un catálogo
 - Escribir en la tabla Order para registrar una compra
 
 Los datos se almacenan mediante **transacciones**.
@@ -179,9 +179,10 @@ Las transacciones se basan en "ACID":
 
 
 ## Cargas de trabajo de datos analíticos OLAP
-En este caso, hablamos de grandes cantidades de información. Consiste en reunir información de distintos tipos de datos. Acá aparece el término de Data Warehouse, bodega de datos o almacenes de datos (no confundir con almacenamiento de datos). Tambien se suele usar el formato Parquet.
-Estan **optimizadas para tareas de lectura**, es decir a consultas para crear reportes , análisis.
-
+En este caso, hablamos de grandes cantidades de información. Consiste en reunir información de distintos tipos de datos.
+Acá aparece el término de **Data Warehouse**, bodega de datos o **almacenes de datos** (no confundir con almacenamiento de datos). 
+Estos Data Warehouse guardan la información en un esquema relacional pero, estan **optimizadas para tareas de lectura**, es decir a consultas para crear reportes , análisis.
+Tambien se suele usar el formato Parquet. 
 
 
 ### Flujo de una carga de trabajo de datos analíticos
@@ -207,18 +208,18 @@ Estan **optimizadas para tareas de lectura**, es decir a consultas para crear re
 ### Cuestionario 
 
 1. ¿Cómo se organizan los datos en una tabla relacional?
-   - [✅️] En filas y columnas
+   - [X] En filas y columnas
    - [  ] En el encabezado y en el pie de página
    - [  ] En páginas y párrafos
 
 2. ¿Cuál de los siguientes constituye un ejemplo de datos no estructurados?
    - [  ] Un archivo de texto delimitado por comas con los campos EmployeeID, EmployeeName y EmployeeDesignation
-   - [✅️] Archivos de audio y vídeo
+   - [X] Archivos de audio y vídeo
    - [  ] Una tabla en una base de datos relacional
 
 3. ¿Qué es un almacén de datos (data warehouse)?
    - [  ] Una base de datos no relacional optimizada para operaciones de lectura y escritura
-   - [✅️] Una base de datos relacional optimizada para operaciones de lectura
+   - [X] Una base de datos relacional optimizada para operaciones de lectura
    - [  ] Una ubicación de almacenamiento para archivos de datos no estructurados
 
 
@@ -281,33 +282,33 @@ Servicios de Azure más usados para trabajar con datos
 
 # Servicios en la nube de Microsoft para datos
 
-## Cargas de trabajo de datos operativos
+## Cargas de trabajo de datos operativos 
 - Azure SQL  
   Familia de servicios de bases de datos relacionales basados en SQL Server
- ![sql](sql.png)  
+ ![Sql](sql.png)  
 - Azure Database para open-source:
   - MariaDB  
-   ![alt text](mariadb.png)
+   ![MariaDB](mariadb.png)
   - MySQL  
-   ![alt text](mysql.png)
+   ![MySql](mysql.png)
   - PostgreSQL  
-   ![alt text](postgresql.png)
+   ![Postgre Sql](postgresql.png)
 - Azure Cosmos DB:  
   Sistema de base de datos no relacional altamente escalable
- ![alt text](cosmosdb.png)
+ ![Cosmos DB](cosmosdb.png)
 - Azure Storage:  
   - Archivo, blob y almacenamiento de tabla
   - Espacio de nombres jerárquico para almacenamiento en un lago de datos  
- ![alt text](azurestorage.png)
+ ![Azure Storage](azurestorage.png)
 
 
 
 
-## Cargas de trabajo de datos analíticos
+## Cargas de trabajo de datos analíticos 
 
 ### Software como servicio (SaaS)
 #### **Microsoft Fabric**  
-  ![alt text](microsoftfabric.png)  
+  ![Microsoft Fabric](microsoftfabric.png)  
 Plataforma analítica unificada, basada en SaaS, basada en un almacén de lago abierto y gobernado:
 - Ingesta de datos y ETL
 - Almacén de lago de datos
@@ -318,12 +319,50 @@ Plataforma analítica unificada, basada en SaaS, basada en un almacén de lago a
 - Gobernanza y administración de datos
 
 ### Plataforma como servicio (PaaS)
-**Azure Synapse Analytics**![alt text](azuresynapseanalytics.png)
+**Azure Synapse Analytics**![Azure Synapse Analytics](azuresynapseanalytics.png)
 - Solución integrada para el análisis de datos en Azure
 - Canalizaciones, Apache Spark, SQL, Data Explorer
 
-**Azure Databricks**![alt text](azuredatabricks.png)
+**Azure Databricks**![Azure Databriks](azuredatabricks.png)
 - Análisis y procesamiento de datos de Apache Spark
 
-**Azure HDInsight**![alt text](azurehdinsight.png)
+**Azure HDInsight**![Azure Hd Insight](azurehdinsight.png)
 - Plataforma de código abierto de Apache
+
+
+### Cuestionario 
+
+1. **¿Cuál de las tareas siguientes es responsabilidad del administrador de base de datos?**
+   - [X] Realizar copias de seguridad de las bases de datos y restaurarlas
+   - [ ] Crear paneles e informes
+   - [ ] Crear canalizaciones para procesar datos en un lago de datos
+
+2. **¿Qué rol es más probable que use Azure Data Factory para definir una canalización de datos para un proceso ETL?**
+   - [ ] Administrador de base de datos
+   - [X] Ingeniero de datos
+   - [ ] Analista de datos
+
+3. **¿Qué servicios usaría como solución SaaS para el análisis de datos?**
+   - [ ] Azure SQL Database
+   - [X] Microsoft Fabric
+   - [ ] Azure Synapse Analytics
+
+
+----------- 
+
+## ¿Qué has aprendido hoy?
+
+Los datos son la esencia de la mayoría de las aplicaciones y soluciones de software.  
+Se pueden representar en muchos formatos, almacenarse en archivos y bases de datos, y usarse para registrar transacciones o para admitir los análisis y la realización de informes.  
+
+La administración y el trabajo con datos es una aptitud especializada que requiere el conocimiento de varias tecnologías.  
+La mayoría de las organizaciones definen roles de trabajo para las distintas tareas relacionadas con la administración de datos.
+
+
+## Directorio de links
+
+- **Exploración de los conceptos de datos principales:**  
+  [https://learn.microsoft.com/es-mx/training/modules/explore-coredata-concepts/](https://learn.microsoft.com/es-mx/training/modules/explore-coredata-concepts/)
+
+- **Exploración de roles y servicios de datos:**  
+  [https://learn.microsoft.com/es-mx/training/modules/explore-roles-responsibilities-world-of-data/](https://learn.microsoft.com/es-mx/training/modules/explore-roles-responsibilities-world-of-data/)

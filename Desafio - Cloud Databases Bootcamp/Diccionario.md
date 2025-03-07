@@ -186,6 +186,8 @@ Un Data Warehouse, o almacén de datos, es un sistema utilizado para el almacena
 
 OLTP
 OLAP
-pipeline: canalizacion, flujo o secuencia de tareas
+pipeline: canalizacion, flujo o secuencia de tareas , flujo de datos
 
 append
+
+workload
