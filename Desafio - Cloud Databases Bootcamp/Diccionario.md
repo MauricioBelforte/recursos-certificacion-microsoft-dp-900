@@ -9,6 +9,14 @@ Reservar recursos específicos (como rendimiento y almacenamiento) para asegurar
 ### AI – Artificial Intelligence
 Inteligencia Artificial.
 
+### Append  
+Operación de agregar nuevos datos a una tabla o archivo existente, sin eliminar ni sobrescribir los datos previos.
+
+### Azure Data Factory  
+Servicio de integración de datos que permite crear flujos de trabajo de datos (ETL/ELT).
+
+ 
+
 ## B
 
 ### BLOB – Binary Large Object
@@ -29,6 +37,9 @@ Entorno de ejecución de aplicaciones .NET.
 
 ### DB – Database
 Base de datos.
+
+### DBMS - Sistema de gestión de bases de datos (Database Management System). 
+Software utilizado para crear, administrar y operar bases de datos, asegurando la organización y acceso a los datos.
 
 ### DDL – Lenguaje de definición de datos
 Lenguaje utilizado para definir y gestionar esquemas de bases de datos.
@@ -118,7 +129,25 @@ Bases de datos que no utilizan un esquema relacional estricto.
 ### NFS – Network File System
 Sistema de archivos de red.
 
+## O
+
+### OLTP - Procesamiento de transacciones en línea (Online Transaction Processing). 
+Se centra en gestionar transacciones rápidas y pequeñas en bases de datos, como las que ocurren en sistemas de punto de venta.
+
+### OLAP - Procesamiento analítico en línea (Online Analytical Processing). 
+Se utiliza para consultas complejas y análisis de grandes volúmenes de datos, comúnmente en almacenes de datos.
+
 ## P
+
+### Pipeline  
+Canalización, flujo o secuencia de tareas diseñadas para mover y procesar datos desde una fuente hasta un destino. También conocido como flujo de datos.
+
+
+
+
+
+
+
 
 ### PaaS – Platform as a Service
 Plataforma como servicio. Provisión de plataformas de desarrollo y despliegue a través de la nube.
@@ -183,11 +212,6 @@ Máquina virtual. Entorno virtualizado que actúa como una computadora independi
 Un almacenamiento de datos (o data warehouse) es una base de datos relacional optimizada para la lectura y el análisis de datos, en lugar de para operaciones de escritura rápida, y está diseñada para la toma de decisiones empresariales.
 Un Data Warehouse, o almacén de datos, es un sistema utilizado para el almacenamiento y análisis de grandes volúmenes de datos provenientes de diversas fuentes.
 
+### Workload  
+Carga de trabajo. Se refiere al conjunto de procesos y operaciones que un sistema maneja, como consultas o tareas realizadas en una base de datos.
 
-OLTP
-OLAP
-pipeline: canalizacion, flujo o secuencia de tareas , flujo de datos
-
-append
-
-workload

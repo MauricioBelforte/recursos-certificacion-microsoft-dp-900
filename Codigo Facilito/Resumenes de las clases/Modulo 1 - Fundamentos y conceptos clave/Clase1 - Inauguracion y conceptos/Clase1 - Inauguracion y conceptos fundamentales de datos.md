@@ -4,23 +4,21 @@
   - Se transmitió el: viernes 27 de Septiembre a las 20:00  
   - [Ver grabación](https://codigofacilito.com/videos/introduccion-conceptos-fundamentales-de-datos-roles-servicios-y-cargas-de-trabajo)
 
+# Índice
 
+## - [1) Conceptos fundamentales](#01-conceptos-fundamentales)
+## - [2) Cargas de trabajo](#02-cargas-de-trabajo)
+## - [3) Roles profesionales](#03-roles-profesionales)
+## - [4) Servicios](#04-servicios)
 
-### 01) Conceptos fundamentales [(ir al detalle)](#01)
-Conceptos básicos de los datos.
-
-### 02) Cargas de trabajo [(ir al detalle)](#02)
-Transaccionales y Analíticas.
-
-### 03) Roles profesionales [(ir al detalle)](#03)
-Administradores, Ingenieros y Analistas de datos.
-
-### 04) Servicios [(ir al detalle)](#04)
-Servicios de Azure más usados para trabajar con datos.
 
 ---
 
-# 01) Conceptos fundamentales {#01}
+
+
+
+
+# 01-Conceptos fundamentales
 
 ## **¿Qué son los datos?**   
 Valores usados (Ej: Coleccion de elementos, numeros, texto, observaciones) que registran información, a menudo representando **entidades** que tienen uno o varios **atributos**.
@@ -135,7 +133,8 @@ Samir,Nadoy,samir@northwind.com
 ---
 
 
-# 02) Cargas de trabajo {#02}
+
+# 02-Cargas de trabajo  
 En esta parte vamos a ver como se procesa la información.  
 Tenemos 2 tipos **Workloads transaccionales** y **Workloads analíticos**. 
 Es decir **Cargas de trabajo de datos transaccionales** y **Cargas de trabajo de datos analíticos**.
@@ -226,7 +225,7 @@ Tambien se suele usar el formato Parquet.
 
 ---
 
-# 03) Roles profesionales {#03}
+# 03-Roles profesionales 
 Vamos a ver Administradores de datos, Ingenieros de datos, Analistas de datos, pero no son los únicos. Hay más como por ejemplo científico de datos , arquitecto de datos, etc.
 
 
@@ -275,7 +274,7 @@ Vamos a ver Administradores de datos, Ingenieros de datos, Analistas de datos, p
 
 ---
 
-# 04) Servicios {#04}
+# 04-Servicios 
 
 Servicios de Azure más usados para trabajar con datos
 
