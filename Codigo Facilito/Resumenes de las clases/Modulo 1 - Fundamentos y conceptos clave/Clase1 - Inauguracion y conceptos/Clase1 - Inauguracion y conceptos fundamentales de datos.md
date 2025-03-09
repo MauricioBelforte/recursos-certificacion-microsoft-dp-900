@@ -1,5 +1,6 @@
 # Módulo 1: Fundamentos y conceptos clave
 
+## Clase 1
 ## **Inauguración y conceptos fundamentales de datos, roles, servicios y cargas de trabajo**
   - Se transmitió el: viernes 27 de Septiembre a las 20:00  
   - [Ver grabación](https://codigofacilito.com/videos/introduccion-conceptos-fundamentales-de-datos-roles-servicios-y-cargas-de-trabajo)

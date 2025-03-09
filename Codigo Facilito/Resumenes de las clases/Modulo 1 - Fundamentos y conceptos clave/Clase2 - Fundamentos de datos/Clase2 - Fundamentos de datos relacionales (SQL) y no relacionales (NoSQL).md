@@ -1,5 +1,7 @@
 # Módulo 1: Fundamentos y conceptos clave
 
+## Clase 2
+
 ## - **Fundamentos de datos relacionales (SQL) y no relacionales (NoSQL)**
   - Se transmitió el: miércoles 02 de Octubre a las 20:00  
   - [Ver grabación](https://codigofacilito.com/videos/introduccion-fundamentos-de-datos-relacionales-sql-y-no-relacionales-nosql)
@@ -171,9 +173,8 @@ Acá vimos un ejemplo en que esta en el excel
 
 ---
 
+
 # 08-Introducción a las sentencias de consulta
-
-
 
 ## Lenguaje de consulta estructurado | SQL
 
