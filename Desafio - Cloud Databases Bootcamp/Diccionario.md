@@ -84,6 +84,7 @@ Unidad de procesamiento gráfico para cargas de trabajo intensivas.
 ## H
 
 ### Hyper-scale (Hiperescala)
+Hyperscale (Highly scalable compute and storage) o (Cómputo y almacenamiento altamente escalables)
 **Hiperescala**: La hiperescala se refiere a la capacidad de una arquitectura informática para escalar de manera eficiente a medida que aumenta la demanda. Es un enfoque de infraestructura que permite el crecimiento masivo y rápido de recursos informáticos para gestionar grandes volúmenes de datos y una alta demanda de procesamiento. Los entornos de hiperescala suelen estar diseñados para proporcionar alto rendimiento, flexibilidad y disponibilidad, y son comunes en grandes empresas tecnológicas y proveedores de servicios en la nube.
 
 ## I
