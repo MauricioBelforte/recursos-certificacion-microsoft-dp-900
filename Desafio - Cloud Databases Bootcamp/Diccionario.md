@@ -33,6 +33,13 @@ Integración y Despliegue Continuos. Práctica de DevOps para automatizar las pr
 ### CLR – Common Language Runtime
 Entorno de ejecución de aplicaciones .NET.
 
+### Collation
+ Reglas que determinan cómo se almacenan, ordenan y comparan textos en una base de datos (sensibilidad a mayúsculas, acentos y juego de caracteres).  
+**Ejemplo:** **SQL_Latin1_General_CP1_CI_AS**  
+- **CI (Case Insensitive):** Insensible a mayúsculas y minúsculas.  
+- **AS (Accent Sensitive):** Sensible a los acentos.
+
+
 ## D
 
 ### DB – Database
@@ -105,6 +112,9 @@ Internet de las Cosas.
 ### LAMP
 Linux, Apache, MySQL y PHP.
 
+ ### Lift-and-shift
+  Estrategia de migración que consiste en mover una aplicación o sistema tal como está (sin modificaciones significativas) desde su entorno original a la nube. Es un enfoque rápido y directo para trasladar cargas de trabajo sin rediseñar la arquitectura de la aplicación.
+
 ### LOB – Line Of Business
 Aplicaciones de línea de negocio. Los sistemas OLTP suelen usarse para admitir aplicaciones activas que procesan datos empresariales.
 
@@ -131,6 +141,9 @@ Bases de datos que no utilizan un esquema relacional estricto.
 Sistema de archivos de red.
 
 ## O
+
+### On-premise 
+Se refiere a software o sistemas que se ejecutan en las instalaciones físicas de una organización, en lugar de en la nube.
 
 ### OLTP - Procesamiento de transacciones en línea (Online Transaction Processing). 
 Se centra en gestionar transacciones rápidas y pequeñas en bases de datos, como las que ocurren en sistemas de punto de venta.
@@ -190,6 +203,10 @@ Bloque de mensajes del servidor.
 
 
 ## T
+
+### TLS (Transport Layer Security / Seguridad de la Capa de Transporte):
+Protocolo de seguridad que cifra las conexiones para proteger datos en tránsito entre el cliente y el servidor, recomendado en Azure SQL para garantizar comunicaciones seguras.
+
 
 ### TSQL (Transact-SQL)
 Extensión del SQL estándar utilizada en SQL Server para la programación de consultas y la gestión de bases de datos.

@@ -1,6 +1,7 @@
 # Módulo 2: Datos relacionales en Azure
 
 ## Clase 3
+
 ## **Servicios de bases de datos relacionales en Azure, implementación, conexión,consultas y herramientas**
   - Se transmitió el: viernes 04 de Octubre a las 20:00 
   - [Ver grabación](https://codigofacilito.com/videos/introduccion-bases-de-datos-con-azure)
@@ -125,14 +126,18 @@ Este modelo le permite:
 ## Tenemos 2 Modelos de servicio:
 
 ## 1) DTUs
+*En este modelo se podría decir que se comparten los recursos para abaratar costos*
+
 - **Basic**: Bases de datos pequeñas, especialmente aquellas en fases de desarrollo.
 - **Standard**: Bases de datos de propósito general con requisitos de rendimiento moderados.
 - **Premium**: Bases de datos de misión crítica con requisitos de alto rendimiento y alta disponibilidad.
 
+Una de las características de este modelo se puede seleccionar el tamaño máximo de la base de datos (con un selector deslizable. Por ej: 1 o 2 GB maxímo en el Básico, sea 1 o 2 no incide en el costo pero cobra por hora)
+
 ## 2) vCores
-- **General Purpose**: Aplicaciones de datos con requisitos básicos de E/S y disponibilidad.
-- **Business Critical**: Aplicaciones de datos críticos para el negocio con alta disponibilidad y E/S rápidas.
-- **Hyperscale**: Cargas de trabajo OLTP y HTAP de VLDB con:
+- **General Purpose (Uso general o Propósito general)**: Aplicaciones de datos con requisitos básicos de E/S y disponibilidad.
+- **Business Critical (Crucial para la empresa)**: Aplicaciones de datos críticos para el negocio con alta disponibilidad y E/S rápidas.
+- **Hyperscale (Hiperescala)**: Cargas de trabajo OLTP y HTAP de VLDB con:
   - Requisitos de escala de lectura.
   - Almacenamiento altamente escalable.
 
@@ -246,7 +251,7 @@ Este modelo le permite:
 15. Las siglas **SQL_Latin1_GENERAL_CP1_CI_AS** nos sirven para determinar el formato de la base de datos, conocido como **Database Collation**.  
     - **AS**: Significa *"As sensitive"*, es decir, que es sensible a las mayúsculas.  
     - **Collation**: Define cómo se almacenan y comparan los datos en la base de datos.
-16. Por ultimo crear
+16. Por ultimo crear.
 
 
 
