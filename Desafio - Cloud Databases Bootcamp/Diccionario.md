@@ -121,6 +121,9 @@ Aplicaciones de línea de negocio. Los sistemas OLTP suelen usarse para admitir 
 ### LRS, GRS, ZRS – Locally Redundant Storage, Geo-Redundant Storage, Zone-Redundant Storage
 Tipos de redundancia de almacenamiento en Azure.
 
+LRS (Almacenamiento con redundancia local)
+RA-GRS (Almacenamiento con redundancia geográfica)
+
 ### LTR – Retención a largo plazo
 Funcionalidad en Azure que permite conservar copias de seguridad de bases de datos durante un período extendido.
 
@@ -189,7 +192,7 @@ Funcionalidad que permite conservar copias de seguridad de bases de datos durant
 Software como servicio. Provisión de aplicaciones a través de la nube.
 
 
-### Serverless (Sin Servidor)
+### Serverless (Sin Servidor o servidor on-demand)
 **Serverless**: El término "serverless" (sin servidor) describe un modelo de ejecución en la nube donde el proveedor de servicios en la nube gestiona automáticamente la infraestructura subyacente. En un entorno sin servidor, los desarrolladores pueden escribir y desplegar código sin preocuparse por la administración de servidores, la escalabilidad o el aprovisionamiento de recursos. Los servicios serverless permiten a los desarrolladores concentrarse en escribir la lógica de la aplicación, mientras el proveedor de la nube se encarga de escalar automáticamente los recursos según la demanda.
 
 ### SLA – Service Level Agreement
