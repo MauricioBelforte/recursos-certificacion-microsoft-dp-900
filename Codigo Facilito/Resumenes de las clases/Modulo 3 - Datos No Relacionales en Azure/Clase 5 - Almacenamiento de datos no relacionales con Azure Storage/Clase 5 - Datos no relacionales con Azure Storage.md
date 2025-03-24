@@ -1,4 +1,4 @@
-# Módulo 2: Datos no relacionales en Azure
+# Módulo 3: Datos no relacionales en Azure
 
 ## Clase 5
 
