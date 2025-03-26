@@ -9,7 +9,19 @@
 
   
   
+# Objetivos de la clase/Intro
 
+Hoy daremos un repaso sobre las opciones de **Analítica de datos en Azure** y, posteriormente, procederemos a conocer en qué consiste el **análisis de datos en tiempo real** con **Apache Spark** y **Synapse**.  
+Además, estudiaremos un poco de **Fabric**.
+
+
+# Tabla de contenido
+
+- **/01 Repaso: Análisis de datos en Azure**
+  - Opciones para analítica de datos  
+- **/02 Streaming y análisis en tiempo real**
+  - Con Azure Stream Analytics, Spark, Synapse y Fabric
+  - 
   
 
 
