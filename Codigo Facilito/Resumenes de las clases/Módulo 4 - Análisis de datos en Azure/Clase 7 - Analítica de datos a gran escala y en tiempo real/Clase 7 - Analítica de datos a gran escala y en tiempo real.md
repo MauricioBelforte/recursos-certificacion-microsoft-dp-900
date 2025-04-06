@@ -284,3 +284,109 @@ E. **Presentación y Uso (Consume/Serve):**
      - **Function App**, **Logic App** y **Web App**: Amplían las posibilidades de procesamiento y presentación dinámica.
 
 
+---
+
+# Practicamos
+
+# Configuración y Uso de Azure Data Factory
+
+## 1. Creación del Grupo de Recursos
+- Creamos un grupo de recursos en el portal de Azure.
+
+## 2. Creación del Servicio de Azure Data Factory
+- Desde el portal de Azure, configuramos un nuevo recurso: **Azure Data Factory**.
+
+## 3. Acceso a Azure Data Factory Studio
+- Una vez creado el recurso, accedemos a **Azure Data Factory Studio** presionando en **Launch Studio**. Esto abre la interfaz web de la herramienta.
+
+## 4. Opciones Principales en Azure Data Factory Studio
+En Azure Data Factory Studio se presentan varias opciones clave:
+- **Ingesta de datos:** Para copiar datos desde una fuente a un destino.
+- **Orquestación y transformación de datos.**
+- **Configuración de SSIS (SQL Server Integration Services).**
+
+## 5. Configuración del Proceso de Ingesta
+### Selección de Tarea
+- Vamos a **Ingesta de Datos** y seleccionamos:
+  - **Built-in Copy Task** (tarea de copia integrada).
+
+### Configuración de Ejecución
+- En la sección **Task Cadence or Task Schedule**, seleccionamos: **Run Once Now** (Ejecutar una sola vez ahora).
+
+## 6. Configuración de la Fuente de Datos (*Source Data Store*)
+- Elegimos entre diversas opciones de fuentes de datos.
+- En este caso, seleccionamos una **Azure SQL Database**.
+  - Proporcionamos las credenciales necesarias y detalles para conectarnos a la base de datos.
+
+
+### Detalles Adicionales
+1. **Built-in Copy Task:** Es ideal para transferencias de datos simples y rápidas sin necesidad de configuraciones avanzadas.
+2. **Task Scheduling:** Si deseas tareas recurrentes, también puedes configurar un cronograma para automatizar ejecuciones futuras.
+3. **Compatibilidad:** Azure Data Factory admite una amplia gama de fuentes y destinos de datos, como Blob Storage, Data Lake, y otros servicios populares, lo que lo hace extremadamente versátil.
+4. **Seguridad:** Asegúrate de utilizar claves de conexión seguras o integrar **Managed Identity** para proteger tus datos y cumplir con las mejores prácticas de seguridad.
+
+
+
+# ¿Tiene un costo usar Azure Data Factory?
+
+Sí, el uso de Azure Data Factory tiene costos asociados que dependen de varios factores:
+
+## Factores que influyen en los costos:
+1. **Orquestación y Ejecución de Canalizaciones:**
+   - Se cobra por cada actividad ejecutada en una canalización.
+   - El costo también depende del tiempo de uso del entorno de integración.
+
+2. **Flujos de Datos:**
+   - Si utilizas flujos de datos para transformar datos, los costos se calculan según:
+     - Tiempo de ejecución.
+     - Recursos computacionales utilizados.
+
+3. **Ejecución de Paquetes SSIS:**
+   - Si necesitas ejecutar paquetes de SQL Server Integration Services (SSIS), hay costos adicionales asociados con el runtime de integración.
+
+## Herramientas para Estimar Costos
+- **Calculadora de Precios de Azure:**
+  - Puedes utilizar la [calculadora de precios](https://learn.microsoft.com/es-es/azure/data-factory/pricing-concepts) para estimar los costos en función de tus necesidades específicas.
+
+## Consejos para Optimizar Costos:
+1. **Planificación de Recursos:**
+   - Configura canalizaciones eficientes para minimizar el tiempo de ejecución.
+2. **Monitoreo de Uso:**
+   - Utiliza las herramientas de Azure para supervisar el consumo y evitar gastos inesperados.
+3. **Presupuestos y Alertas:**
+   - Establece presupuestos y recibe alertas en caso de que te acerques a los límites de gasto deseados.
+
+
+
+--- 
+# Vamos a detallar las opciones principales en Azure Data Factory Studio
+
+### **1. Ingesta de Datos**
+La ingesta de datos te permite mover información desde una fuente hacia un destino dentro de tu arquitectura de datos. Algunas características importantes:
+- **Tareas de Copia Integradas (Built-in Copy Task):**
+  - Ideal para transferencias rápidas y sencillas.
+  - Permite conectar múltiples tipos de origen y destino, como bases de datos, almacenamiento en la nube y APIs.
+- **Tareas con Metadatos (Metadata Driven Copy Task):**
+  - Más avanzadas, permiten procesar grandes volúmenes de datos con configuraciones dinámicas basadas en metadatos.
+- **Configuraciones Principales:**
+  - Selección de fuente de datos (*Source Data Store*).
+  - Configuración del destino de datos (*Sink Data Store*).
+  - Posibilidad de programar tareas o ejecutarlas de inmediato.
+
+### **2. Orquestación y Transformación de Datos**
+Aquí es donde puedes construir canalizaciones completas para procesar y analizar datos. Incluye:
+- **Actividades de Orquestación:**
+  - Secuencia de tareas que mueven y procesan datos de manera controlada.
+  - Incluyen condiciones, bucles (*loops*) y dependencias entre actividades.
+- **Flujos de Datos (Data Flows):**
+  - Diseñados para transformar datos usando una interfaz gráfica sin necesidad de escribir código.
+  - Ejemplos: Limpieza de datos, agregaciones, unión de datasets, y más.
+
+### **3. Configuración de SSIS (SQL Server Integration Services)**
+Si estás migrando procesos desde un entorno SQL Server tradicional, esta opción te permite:
+- Ejecutar paquetes SSIS directamente dentro de Azure Data Factory mediante el runtime de integración.
+- Conectar soluciones existentes a entornos modernos de nube sin necesidad de reescribirlas.
+- Escalar y automatizar tus flujos de trabajo existentes con mayor flexibilidad.
+
+---
+
