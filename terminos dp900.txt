@@ -1,0 +1,4 @@
+terminos rehidratarse
+hidratarse
+
+projecting proyeccion : subconjunto de columnas
